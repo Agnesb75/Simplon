@@ -1,0 +1,401 @@
+body
+{
+    margin :0; 
+    padding:0;
+    background-color: #ECEFF1;
+    
+}
+html, body {
+    width:100%;
+    }
+
+.page
+{
+    width: 1280px;
+}
+
+.header-container
+{
+    height: 60px;
+    background-color: #ffffff;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0%;
+    box-shadow: 0 2px 5pX rgb(185, 182, 182);
+  
+}
+
+.logo img
+{
+    width: 18%;
+    float: left;
+    margin-top: 16%;
+    padding-left: 14%;
+
+}
+
+.logo p
+{
+    margin-left: 8%;
+    float: left;
+    padding-top: 0%;
+    padding-left: 0%;
+    font-size: smaller;
+    font-family: open;
+    
+}
+
+.logo
+{
+    border: 2px black solid;
+    border-radius: 20px;
+    width: 110px;
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0%;
+    
+}
+
+.leparisien img
+{
+    width: 42%;
+    position: relative;
+    margin-top: 2%;
+    left: 27em;  
+
+}
+.contact img
+{
+    width: 5%;
+    position: relative;
+    left: 140%;
+    margin-top: 3%;
+    
+}
+
+.mobile img
+{
+    width: 6%;
+    position: relative;
+    left: 60%;
+    margin-top: 3%;
+}
+
+.abonner p
+{
+    position: relative;
+    right: 6em;
+    margin-top: 20%;
+    font-size: small;
+    background-color: #fc3;
+    border: 15px #fc3 solid;
+    border-radius: 20px;
+    font-family: open;
+    
+}
+
+.pub img
+
+{ 
+    position: relative;
+    top: 5em;
+    left: 2%;
+    width: 96%;
+    box-shadow: 0 2px 5pX rgb(185, 182, 182);
+}
+
+.annonce .premier p
+{
+    position: relative;
+    top: 2em;
+    left: 2%;
+    color:#ffffff ;
+    background-color: #1ea0e6;
+    width: 7.3%;
+    font-size: smaller;
+    font-family: open;
+    padding: 2px;
+    border: 3px #1ea0e6 solid;
+    font-weight: bold;
+    border-radius: 2px;
+
+}   
+
+.annonce .second p
+{
+    position: relative;
+    top: -0.8em;
+    left: 11%;
+    color:  #1ea0e6;
+    background-color:#ffffff;
+    width: 5.4%;
+    font-size: smaller;
+    font-family: open;
+    padding: 2px;
+    border: 2px #1ea0e6 solid;
+    font-weight: bold;
+    border-radius: 2px;
+
+}
+.annonce h1
+{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 1.5%;
+    font-weight: bolder;
+    Font-size: 55px;
+    line-height: 55px;
+    font-family: open ;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #212121;
+}
+
+.annonce
+{
+    position: relative;
+    top: 6em;
+    padding-bottom: 10%;
+    background-color: #ffffff;
+    box-shadow: 0 5px 5pX rgb(121, 119, 119);
+}
+.annonce h2
+{
+    position: relative;
+    margin-left: 1.5%;
+    font : 28px Georgia ;
+    color: #212121;
+
+}
+.policepic img
+{
+    width: 65%;
+    position: relative;
+    top: 1em ;
+    margin-left: 1.5%;
+    
+}
+.pub2 img
+{
+    position: relative;
+    margin-left: 74%;
+    margin-top: -41%;
+    
+    
+}
+
+.p p
+{
+    position: relative;
+    margin-left: 1.5%;
+    color: #212121;
+    font-family: open;
+    font-size: small;
+    margin-top: -5em;
+    width: 40%
+
+}
+.print img
+{
+    position: relative;
+    width: 2%;
+    margin-left: 1.8%;
+    margin-top: 6%;
+    border: 1px rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+.A p
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 2%;
+    margin-top: -0.26%;
+    padding-left: 1em;
+    padding-right: 0em;
+    font-size: normal;
+}
+
+.a p
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px  rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 2%;
+    margin-top: -1.30%;
+    padding-left: 1em;
+    padding-right: 0em;
+    font-size: normal;
+    align-items: center;
+
+}
+
+.fb img
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px  rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 2.1%;
+    margin-top: 0%;
+    padding-left: 0.5em;
+    padding-right: 0.4em;
+    
+
+}
+
+.twitter img
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px  rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 2.1%;
+    margin-top: -0.4%;
+    padding-left: 0.5em;
+    padding-right: 0.4em;
+    
+}
+.messenger img
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px  rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 3.2%;
+    margin-top: -0.39%;
+    padding-left: 0em;
+    padding-right: 0em;
+    
+    
+}
+
+.whats img
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px  rgb(170, 166, 166) solid;
+    padding: 0.5em;
+    border-radius: 3px;
+    width: 3.1%;
+    margin-top: -0.4%;
+    padding-left: 0.1em;
+    padding-right: 0em;
+    
+}
+
+.mail img
+
+{
+    position: relative;
+    margin-left: 1.8%;
+    border: 1px  rgb(170, 166, 166) solid;
+    padding: 0em;
+    border-radius: 3px;
+    width: 3.1%;
+    margin-top: -0.36%;
+    padding-left: 0.1em;
+    padding-right: 0em;
+    
+}
+.journaliste p
+{
+    position: absolute;
+    width: 40%;
+    color: #212121;
+    font: 15px;
+    margin-left: 15%;
+    top: 43%;
+    font-family: Open;
+    
+}
+.date p
+{
+    position: absolute;
+    width: 40%;
+    color: #78909c;
+    font: 11px;
+    margin-left: 15%;
+    top: 44.6%;
+    font-family: Open;
+
+}
+.texte p
+{
+    position: relative;
+    width: 54%;
+    margin-left: 15%;
+    color: #212121;
+    font-family: Georgia ;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: Georgia;
+   
+}
+.texte
+{
+    position: relative;
+    margin-top: -23%;
+    align-items: center;
+    padding: 0%;
+    padding-right: -30em;
+    padding-left: -30em;
+    width: 100%;
+}
+
+.pu img
+{
+    position: absolute;
+    margin-left: 74%;
+    margin-top: -77%;
+   
+}
+.commentaire img
+
+{
+    width: 4%;
+    margin-left: 15%;
+    padding: 0%;
+    float: left;
+    margin-top: 5%;
+
+}
+.commentaire p
+{
+    font: 15px;
+    color: #1ea0e6;
+    font-family: open;
+    width: 20%;
+    margin-left: 0%;
+    float: left;
+    margin-top: 6.5%;
+}
+
+.lastpub img
+{
+    position: absolute;
+    left: 74%;
+    top: 80%
+    
+}
+
+
+
+
+
+

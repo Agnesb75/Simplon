@@ -1,0 +1,25 @@
+body { 
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    color: rosybrown
+}
+h1 {
+    color: brown;
+    background: gold;
+}
+/*texte*/
+h2 {
+    color: blue;
+}
+p{
+    color: blue;
+}
+.rouge{
+    color: red;
+}
+.jaune{
+    color:yellow;
+}
+.lol{
+    background-color: gold;
+}

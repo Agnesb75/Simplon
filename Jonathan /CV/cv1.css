@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif; /*pour le style de texte*/
+    color:black;
+    background-color: bisque
+}
+h1,h2{
+    color: aliceblue;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.passionred,a{
+    color: red;
+}
+.intro{
+    color:blue;
+    font-weight: 700; /*pour lepaisseur de l'ecriture du plus fin au plus gras*/
+}
+.vert{
+    color: green;
+}
+

@@ -1,0 +1,156 @@
+body
+{
+    margin :0; /*La propriété margin définit la taille des marges sur les quatre côtés de l'élément. C'est une propriété raccourcie qui permet de manipuler les autres propriétés de marges : margin-top, margin-right, margin-bottom and margin-left.*/
+    padding:0;/*Le remplissage est la marge intérieure d'une boîte CSS — entre la limite extérieure du rectangle de la boîte de contenu et la bordure interieure de l'encadrement. La taille de cette couche peut être définie des 4 côtés à la fois avec le raccourci de propriété padding ou bien côté par côté avec les propriétés padding-top, padding-right, padding-bottom et padding-left.*/
+    font-family: 'Open-sans', sans-serif; /*La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé.*/
+}
+/* barre grise de navigation */
+.header-container 
+{
+    background : #ecf0f1; /* couleur du fond de la balise */
+    /* height: 70px; */
+    display: flex;
+    justify-content: space-between; /*Les éléments sont répartis équitablement
+    Le bord du premier est aligné sur le 
+    début du conteneur et la fin du dernier
+    est alignée sur la fin du conteneur */
+    align-items: center; /* Les éléments sont regroupés au centre */
+    padding : 0 20px; /*Deux valeurs appliquent le premier écart en haut et en bas et le second sur les côtés droit et gauche.*/
+
+}
+
+.header-container img
+{
+    width: 60px; /* le chemin utiliser precedemment nous permet de seulement donner la hauteur de l'img car le positionnement est repris dans css precedent on la definit avec justify-center: space-between; align--items: center;et display: flx; */
+}
+.header-container .header-menu a
+{
+    padding: 20px;
+    text-decoration: none;
+    color:#2c3e50;
+}
+
+/* Partie du chat */
+#home-container
+{
+    height: 600px;
+    background: url(chat.png) no-repeat center / cover;
+}
+#home-container h1
+{
+    margin: 0;
+    font-size: 40px; /* taille du texte */
+    text-align: center;
+    color: white;
+}
+#home-container .home-icones img
+{
+    width: 120px;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+#home-container .home-icones
+{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Partie du chiot */
+#chiot-container{
+    height: 600px;
+}
+#chiot-container h1
+{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    color: #2c3e50;
+
+}
+#chiot-container .chiot-blog img{
+    width: 300px;
+    margin-left: 2em; /*La propriété margin-left d'un élément définit l'espace horizontal à gauche qui formera la marge à gauche de l'élément. On peut avoir une marge gauche négative qui rapproche l'élément de ses voisins ou une marge positive qui l'en écarte.*/
+}
+#chiot-container .chiot-blog
+{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#chiot-container .chiot-blog .chiot-txt
+{
+    width: 30%;
+    text-align: justify;
+    margin-right: 2em; 
+    /* em est une unité de mesure permettant de faire du responsive, par défaut l'espacement est 1 em, quand on dit 2 em on double, quelque soit l'espacement effectif en pixel*/
+}
+#chiot-container .chiot-blog .chiot-txt h2
+{
+    text-align: center;
+}
+
+/* Partie des Lapins */
+
+#container-Lapins{
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)), /* on fait un dégradé du noir à opacité 40% - donc gris clair - vers le blanc */
+                url(background-rabbits.png)repeat-x bottom /30%, /*la virgule permet d'attribuer autre chose à notre background, ici une image */
+                url(background-rabbit2\ \(1\).png) repeat-y bottom right / 6%; /*se met derière la première image du background, ces lapins apparaissent derrière les autres */
+}
+#container-Lapins h1
+{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    color: #2c3e50;
+}
+#container-Lapins .lapin-block 
+{
+    display: flex;
+    justify-content: space-around;/* Les éléments sont répartis équitablement
+    À chaque extrémité, entre le bord du 
+    conteneur et le premier/dernier élément
+    on a la moitié de l'espace appliqué entre
+    chaque élément */
+    align-items: center;
+    height: 500px;
+}
+#container-Lapins .lapin-block div
+{
+    width: 250px;
+    height: 375px;
+    border: 3px dashed lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding : 20px;
+    color: white;
+}
+#container-Lapins .lapin-block img
+{
+    border: 2px solid white;
+    border-radius: 50%;
+    background: lightgray;
+    box-shadow: 0 2px 10px 5px rgba(0,0,0,0.2); /* valeurs de la boxshadow : x y blur taille couleur */
+}
+
+#container-Lapins .lapin-block .lapin1
+{
+    background: coral;
+    align-self: flex-end;
+}
+#container-Lapins .lapin-block .lapin2
+{
+    background: teal;
+}
+#container-Lapins .lapin-block .lapin3
+{
+    background: purple;
+    align-self: flex-start;
+}

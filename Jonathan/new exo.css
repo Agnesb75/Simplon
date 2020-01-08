@@ -1,0 +1,42 @@
+div
+{
+    background-color: rgba(108, 162, 243, 0.8); 
+    opacity: 0,8;
+    color: white;
+    width: 40%;
+    height: 500px;
+    padding: 25px;
+    margin: 40px 50px 0 200px;
+    font-size: 1,3rem;
+
+}
+
+span 
+{
+    color: yellow;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+#div
+{
+    color: blue;
+    background-color: white;
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    border: 3px black solid;
+    text-align: left;
+}
+
+body 
+{
+    background: url(http://golem13.fr/wp-content/uploads/2017/11/chat-double-face-chim%C3%A8re-700x460.jpg) repeat-y center right/ 30%, url(http://golem13.fr/wp-content/uploads/2017/11/chat-double-face-chim%C3%A8re-700x460.jpg) no-repeat left / 15%;
+    
+}
+
+
+
+
+
